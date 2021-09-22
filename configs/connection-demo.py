@@ -3,8 +3,7 @@ import datetime
 
 from airflow import models
 from airflow.contrib.operators import bigquery_operator
-
-
+akakak
 yesterday = datetime.datetime.combine(
     datetime.datetime.today() - datetime.timedelta(1),
     datetime.datetime.min.time())
